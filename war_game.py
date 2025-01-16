@@ -249,6 +249,7 @@ class War_Player:
 	print("SUCCESS")
 
     def add_loss(self):
+	print("NO")
         self.record[1] += 1
 
 
