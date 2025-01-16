@@ -244,6 +244,7 @@ class War_Player:
             self.add_card_hand(self.discard.pop())
 
     def add_win(self):
+	print("YAY")
         self.record[0] += 1
 
     def add_loss(self):
